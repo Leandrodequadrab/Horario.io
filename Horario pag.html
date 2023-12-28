@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="Css horarios.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Filial e Horários</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Registro de Filial e Horários</h1>
+    
+    <form action="https://api.sheetmonkey.io/form/7V1quZRQbd6YUngL38NwBR" method="post">
+      <label for="filial">Filial:</label>
+      <select id="filial" name="filial" required>
+        <option value="">Selecione a filial</option>
+        <option value="40">40</option>
+        <option value="41">41</option>
+        <!-- Adicione outras filiais conforme necessário -->
+      </select><br><br>
+
+      <label for="auditor">Auditor Responsável:</label>
+      <select id="auditor" name="auditor" required>
+        <option value="">Selecione o auditor</option>
+        <option value="Augusto">Augusto</option>
+        <option value="Lucas">Lucas</option>
+        <option value="Leandro">Leandro</option>
+      </select><br><br>
+
+      <label for="hora_entrada">Horário de Entrada:</label>
+      <input type="time" id="hora_entrada" name="hora_entrada" required><br><br>
+
+      <label for="hora_saida">Horário de Saída:</label>
+      <input type="time" id="hora_saida" name="hora_saida" required><br><br>
+
+      <input type="submit" value="Registrar">
+    </form>
+  </div>
+</body>
+</html>

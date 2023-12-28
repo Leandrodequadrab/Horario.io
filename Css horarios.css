@@ -1,0 +1,50 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #008000; /* Verde */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #008000; /* Verde */
+  }
+  
+  select,
+  input[type="time"],
+  input[type="submit"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #008000; /* Verde */
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    background-color: #008000; /* Verde */
+    color: #fff; /* Branco */
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #005000; /* Verde mais escuro ao passar o mouse */
+  }
+  
